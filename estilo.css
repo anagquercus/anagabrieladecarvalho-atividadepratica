@@ -1,0 +1,111 @@
+/* Mudanças visuais aplicadas em todo o corpo da página (cor de fundo e fonte das letras) */
+body {
+    background-color: #EFEFEF;
+    font-family: Arial, sans-serif;
+}
+  
+/* Adiciona cor ao fundo do menu de navegação fixo no topo da página */
+.topnav {
+    border-radius: 15px;
+    background-color: #333;
+    overflow: hidden;
+}
+  
+/* Altera o estilo dos links dentro do menu de navegação superior */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Troca a cor dos links do menu superior quando o mouse passa por cima */
+.topnav a:hover {
+    background-color: #486ed0;
+    color: EFEFEF;
+}
+
+/* Muda a cor do link do menu superior ativo no momento */
+.topnav a.active {
+    background-color: #484CD0;
+    color: white;
+}
+
+/* Altera alinhamento do texto em todas as tags h1 */
+h1 {
+    text-align: center;
+}
+
+/* Mudanças nos textos dentro das tags h2, alterações como margens laterais e inferior, e adição de parágrafo */
+h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-indent: 20px;
+}
+
+/* Mudanças nos textos dentro das tags p, alterações como margens laterais e inferior, tamanho da fonte e da linha, e adição de parágrafo */
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+/* Tamanho máximo do formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Mudanças visuais e disponibilização visual das tags label, input e textarea para ficarem um abaixo do outro */
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Mudanças na posição e visual nos campos inputs e textarea do formulário */
+input[type="text"], input[type="email"], textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Mudanças visuais aplicadas ao botão de envio */
+input[type="submit"] {
+    background-color: #484CD0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Mudança de cor aplicada ao botão quando passar o mouse por cima */
+input[type="submit"]:hover {
+    background-color: #486ed0;
+}
+
+/* Adiciona margem ao conteúdo do repositório */
+.repositorio {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* Deixa as bordas arredondadas do ícone dentro do corpo do repositório */
+.repositorio img {
+    border-radius: 40px;
+}
+
+/* Adiciona margem à esquerda do link dentro do conteúdo do repositório */
+.repositorio a {
+    margin-left: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- Cabeçalho da página -->
+    <head>
+        <meta charset="UTF-8">
+        <!-- CSS responsável pelas customizações visuais da página -->
+        <link rel="stylesheet" href="estilo.css">
+        <title>Contato</title>
+        <!-- Menu fixo superior -->
+        <div class="topnav">
+            <a href="sobremim.html">Sobre Mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a class="active" href="contato.html">Contato</a>
+        </div>
+    </head>
+    <!-- Conteúdo da página -->
+    <body>
+        <div>
+            <h1>Contato</h1>
+            <!-- Formulário para envio de contato -->
+            <form action="#" method="post">
+                <!-- Label com nome apresentado do campo e input para criação do campo / tipo texto -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <!-- Label com nome apresentado do campo e input para criação do campo / tipo email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <!-- Label com nome apresentado do campo e textarea para criação do campo de área de texto -->
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <!-- Botão de envio do formulário de contato -->
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
